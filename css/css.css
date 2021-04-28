@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.tittle{
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.contenedor{
+    width: 600px;
+    height: auto;
+    background-color:gray	;
+    margin-top: 50px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.contenedor div{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid gray;
+    margin: 7px;
+    font-size: 70px;
+    text-align: center;
+}
